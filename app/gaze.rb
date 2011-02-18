@@ -66,9 +66,9 @@ __END__
   %head
     %link{:rel => 'stylesheet', :href => 'http://fonts.googleapis.com/css?family=Molengo', :type => 'text/css'}
     %link{:rel => 'stylesheet', :href => 'http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT', :type => 'text/css'}
+    %link{:rel => 'stylesheet', :href => "/stylesheets/style.css", :type => 'text/css'}
     %link{:rel => 'stylesheet', :href => "/stylesheets/reset.css", :type => 'text/css'}
     %link{:rel => 'stylesheet', :href => "/stylesheets/960.css", :type => 'text/css'}
-    %link{:rel => 'stylesheet', :href => "/stylesheets/style.css", :type => 'text/css'}
     %meta{'http-equiv' => "Content-Type", :content => "text/html; charset=utf-8"}/
     
   %body
