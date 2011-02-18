@@ -3,12 +3,12 @@ A very mellow start to begin with, and so it goes:
 
 ## Installation
 
-    $ gem install gaze
-    
+  git clone http://github.com/mcansky/gaze.git
+  bundle install
+
 ## Use
 
-    $ cd dir/with/a/bunch/of/formatted/files
-    $ gaze
+You can rackup once you got a bundle install done
     
 .. after which the mighty, mighty browser is pointed towards [http://localhost:4567](http://localhost:4567)
 and all the fine Markdown-files shows up like perfectly pristine HTML pages.
@@ -17,6 +17,8 @@ and all the fine Markdown-files shows up like perfectly pristine HTML pages.
     
     require 'sinatra'
     require 'haml'
+
+Check the Gemfile for more.
     
 ## Formatting
 
@@ -27,6 +29,7 @@ gaze supports Markdown or Textile. Use the one you like best. Or both.
 
 ## Punch me! With a Fork!
 Copyright (c) 2008, 2009, 2010 Harry Vangberg, Mikkel Malmberg
+Copyright (c) 2011 Thomas 'mcansky' Riboulet
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
