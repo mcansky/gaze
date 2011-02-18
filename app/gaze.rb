@@ -30,10 +30,6 @@ helpers do
 end
 
 get '/' do
-  redirect '/pages/'
-end
-
-get '/pages/' do
   Dir.chdir(ROOT)
   Dir.chdir("docs")
   @pages = pages.sort
@@ -103,6 +99,6 @@ __END__
 %div.grid_16
   %div#content
     %div.root
-      %a{:href => "/pages/"} Index
+      %a{:href => "/"} Index
     ~ @output
 %div.clear
