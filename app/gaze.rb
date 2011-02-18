@@ -1,5 +1,7 @@
 require "sinatra"
 
+ROOT = Dir.getwd
+
 configure do
   # Format options
   {:Markdown => 'maruku', :Textile => 'RedCloth'}.each do |name, gem|
@@ -32,6 +34,8 @@ get '/' do
 end
 
 get '/pages/' do
+  Dir.chdir(ROOT)
+  Dir.chdir("docs")
   @pages = pages.sort
   haml :pages
 end
@@ -39,6 +43,8 @@ end
 get '/pages/:page.:ext' do
   begin
     filename = "#{params[:page]}.#{params[:ext]}"
+    Dir.chdir(ROOT)
+    Dir.chdir("docs")
     File.open(filename) do |file|
       @output = case params[:ext]
                 when "markdown", "md"
