@@ -1,6 +1,6 @@
 /.bundle/
 /.DS_Store
 /bundler/
-/public/.DS_Store
-/public/stylesheets/.DS_Store
 /tmp/hassle/stylesheets/style.css
+/*/.DS_Store
+/public/stylesheets/.DS_Store
