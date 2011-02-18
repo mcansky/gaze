@@ -90,6 +90,7 @@ __END__
       - @pages.each do |page|
         %li.page
           %a{:href => "/pages/#{page}"}= page.split(".").first.gsub(/[_-]/,' ').capitalize
+          %span.date= File.mtime(page).strftime("%d/%m/%Y %H:%M")
 %div.clear
 
 @@page
