@@ -3,8 +3,8 @@ A very mellow start to begin with, and so it goes:
 
 ## Installation
 
-  git clone http://github.com/mcansky/gaze.git
-  bundle install
+    git clone http://github.com/mcansky/gaze.git
+    bundle install
 
 ## Use
 
@@ -28,7 +28,9 @@ gaze supports Markdown or Textile. Use the one you like best. Or both.
     require 'RedCloth' # Textile
 
 ## Punch me! With a Fork!
+
 Copyright (c) 2008, 2009, 2010 Harry Vangberg, Mikkel Malmberg
+
 Copyright (c) 2011 Thomas 'mcansky' Riboulet
 
 Permission is hereby granted, free of charge, to any person
