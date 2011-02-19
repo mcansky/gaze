@@ -5,3 +5,5 @@ gem "maruku"
 gem "haml"
 gem "hassle"
 gem "less"
+
+gem "shotgun", :group => :development

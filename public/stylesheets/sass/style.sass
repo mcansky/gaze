@@ -1,5 +1,8 @@
 $background: #497083
 $arbousier: #822824
+$code_background: #F8F8FF
+$code_border: #DDDDDD
+$code_color: #696969
 
 .clear
   clear: both
@@ -33,6 +36,27 @@ h3
 
 h4
   font-size: 14pt
+
+code
+  background: $code_background
+  border: 1px solid $code_border
+  padding: 3px
+  font-size: 10pt
+  line-height: 1.2em
+
+pre
+  background: $code_background
+  border: 1px solid $code_border
+  margin-left: 10px
+  margin-right: 10px
+  width: auto
+  padding: 5px
+  margin-top: 10px
+
+pre code
+  border: 0
+  background: transparent
+  color: $code_color
 
 #container
   width: 960px
