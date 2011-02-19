@@ -4,25 +4,25 @@ Rails 3.0 introduced a new way to build generators by using [Thor](https://githu
 
 A use of Thor in Rails 3.0 is application templating. The idea is to be able to pass a template to the `rails new` command :
 
-   rails new appname -m the_template.rb
+    rails new appname -m the_template.rb
 
 There is some options good to know :
 
-   % rails --help
-   [...]
-   -d, [--database=DATABASE]   # Preconfigure for selected database (options: mysql/oracle/postgresql/sqlite3/frontbase/ibm_db)
+    % rails --help
+    [...]
+    -d, [--database=DATABASE]   # Preconfigure for selected database (options: mysql/oracle/postgresql/sqlite3/frontbase/ibm_db)
                                # Default: sqlite3
-   -b, [--builder=BUILDER]     # Path to an application builder (can be a filesystem path or URL)
-   -m, [--template=TEMPLATE]   # Path to an application template (can be a filesystem path or URL)
+    -b, [--builder=BUILDER]     # Path to an application builder (can be a filesystem path or URL)
+    -m, [--template=TEMPLATE]   # Path to an application template (can be a filesystem path or URL)
        [--dev]                 # Setup the application with Gemfile pointing to your Rails checkout
        [--edge]                # Setup the application with Gemfile pointing to Rails repository
        [--skip-gemfile]        # Don't create a Gemfile
-   -O, [--skip-active-record]  # Skip Active Record files
-   -T, [--skip-test-unit]      # Skip Test::Unit files
-   -J, [--skip-prototype]      # Skip Prototype files
-   -G, [--skip-git]            # Skip Git ignores and keeps
-   [...]
-   %
+    -O, [--skip-active-record]  # Skip Active Record files
+    -T, [--skip-test-unit]      # Skip Test::Unit files
+    -J, [--skip-prototype]      # Skip Prototype files
+    -G, [--skip-git]            # Skip Git ignores and keeps
+    [...]
+    %
 
 Some stuff has been cut out but the options relevant to us are all here. Pay a special attention to _-T_, and _-J_. Those two options could be helpfull to you if you plan to replace _Test::Unit_ by _rspec_ and _Prototype.js_ by _jQuery_. This is gonna be the case for us here.
 
