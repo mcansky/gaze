@@ -79,6 +79,7 @@ How to register the mime types ?
 What about Pdf files ? It's just a little bit trickier since you will have to write a layout and take care of the css to (well you could let it blank but then, you'll have a dull doc). You better check PrinceXML styling doc but here is an example.
 
 First the layout (views/layouts/pdf.html.haml):
+
     !!!
     %html
       %head
