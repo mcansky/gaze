@@ -163,4 +163,4 @@ So now we can run this. We are supposed to be able to get the file directly usin
     % rails new -JTm basic.rb
     ...
 
-And we are done here you can get my generator in the [arbousier script](https://github.com/mcansky/arbousier_scripts/raw/master/rails_templates/basic.rb) github repository, happy coding.
+And we are done here you can get my generator in the [arbousier script](https://github.com/mcansky/arbousier_scripts/blob/master/rails_templates/basic.rb) github repository, happy coding.
